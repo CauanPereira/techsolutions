@@ -298,7 +298,7 @@ body {
   background: #2563eb;
   top: 10%;
   left: 10%;
-  filter: blur(0px);
+  filter: blur(50px);
   mix-blend-mode: multiply;
   animation: luz 8s infinite ease-in-out; /*tempo da animação*/
   animation-direction: alternate;
@@ -1144,9 +1144,6 @@ body {
   will-change: transform;
   transition: transform 12s ease-in-out; /* desacelera descida */
 }
-
-/* Efeito de scroll suave no hover */
-.work-card:hover .work-iframe { /* animação controlada via JS */ }
 
 /* No modelo, usamos imagem de fundo; esconda o iframe para não interferir */
 .e-gallery-item .work-iframe { display: block; }
